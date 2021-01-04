@@ -31,7 +31,11 @@ We will use a (slightly modified) exercise from https://github.com/CTSRD-CHERI/c
  INSERT SOLUTION HERE
  ```
  
- * There is a security flaw in `buffer-overflow.c`. Briefly explain what the flaw is: *INSERT SOLUTION HERE*
+ * There is a security flaw in `buffer-overflow.c`. Briefly explain what the flaw is: 
+ 
+ ```
+ INSERT SOLUTION HERE
+ ```
  
  * Start CHERI-RISC-V in QEMU, copy `buffer-overflow-hybrid` to the QEMU guest, and run it with a commandline argument that triggers the mentioned security flaw to overwrite the variable `c` with an attacker-controlled value. Give all the commands you have to run (assuming CHERI is in `~/cheri` and cheribuild in `~/cheribuild`):
  
@@ -41,4 +45,6 @@ We will use a (slightly modified) exercise from https://github.com/CTSRD-CHERI/c
   
  * Now, compile the same program in pure capability mode (`riscv64-purecap`) to `buffer-overflow-purecap`. What happens when you run this program in QEMU with the same input that triggered the flaw in `buffer-overflow-hybrid`? Explain why this happens!
 
- *INSERT SOLUTION HERE*
+ ```
+ INSERT SOLUTION HERE
+ ```
